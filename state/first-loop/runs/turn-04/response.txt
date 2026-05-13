@@ -1,0 +1,11 @@
+```json
+{
+  "files": [
+    {
+      "path": "styles.css",
+      "content": ".container { max-width: 1200px; margin: 0 auto; padding: 20px; }\nbody { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f9; color: #333; }\nh1, h2, h3 { color: #333; }\nul, ol { list-style-type: none; padding-left: 0; }\na { text-decoration: none; color: #007bff; }\na:hover { text-decoration: underline; }\n@media (max-width: 768px) {\n  .container { max-width: 90%; }\n}"
+    }
+  ],
+  "notes": "Base styles for a restrained portfolio visual identity."
+}
+```

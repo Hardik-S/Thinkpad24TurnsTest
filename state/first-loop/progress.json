@@ -1,0 +1,131 @@
+{
+  "started_at": "2026-05-13T14:10:23Z",
+  "model": "qwen2.5-coder:3b",
+  "turns": [
+    {
+      "turn": 1,
+      "title": "Project brief and manifest",
+      "status": "completed",
+      "elapsed_seconds": 112.62,
+      "changed_files": [
+        "README.md",
+        "docs/qwen-build-log.md",
+        "docs/file-manifest.md"
+      ],
+      "error": false
+    },
+    {
+      "turn": 2,
+      "title": "Data schema",
+      "status": "completed",
+      "elapsed_seconds": 250.29,
+      "changed_files": [
+        "data/runs.json",
+        "data/hardware.json",
+        "docs/data-schema.md",
+        "data/runs-seed.json",
+        "data/hardware-seed.json"
+      ],
+      "error": false
+    },
+    {
+      "turn": 3,
+      "title": "HTML skeleton",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true
+    },
+    {
+      "turn": 4,
+      "title": "Base styles",
+      "status": "completed",
+      "elapsed_seconds": 216.9,
+      "changed_files": [
+        "styles.css"
+      ],
+      "error": false
+    },
+    {
+      "turn": 5,
+      "title": "Render shell",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true
+    },
+    {
+      "turn": 6,
+      "title": "Recovery HTML skeleton",
+      "status": "completed",
+      "elapsed_seconds": 271.25,
+      "changed_files": [
+        "index.html",
+        "styles.css",
+        "app.js"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 7,
+      "title": "Compact app shell",
+      "status": "completed",
+      "elapsed_seconds": 182.52,
+      "changed_files": [
+        "app.js"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 8,
+      "title": "Validation data pass",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "narrow"
+    },
+    {
+      "turn": 9,
+      "title": "Hardware profile pass",
+      "status": "completed",
+      "elapsed_seconds": 252.09,
+      "changed_files": [
+        "data/hardware.json",
+        "data/runs.json"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 10,
+      "title": "Build story copy pass",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "narrow"
+    },
+    {
+      "turn": 11,
+      "title": "First-loop evidence doc",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "ultra-single-file"
+    },
+    {
+      "turn": 12,
+      "title": "Checkpoint handoff",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "ultra-single-file"
+    }
+  ],
+  "updated_at": "2026-05-13T15:08:29Z"
+}

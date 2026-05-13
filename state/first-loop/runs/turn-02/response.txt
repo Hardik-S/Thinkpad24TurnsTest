@@ -1,0 +1,27 @@
+```json
+{
+  "files": [
+    {
+      "path": "data/runs.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"date\": \"2023-10-01\",\n    \"description\": \"Initial setup and basic files created.\"\n  }\n]"
+    },
+    {
+      "path": "data/hardware.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"name\": \"ThinkPad e530\",\n    \"specs\": [\n      {\"feature\": \"Processor\", \"value\": \"Intel Core i7-8565U\"},\n      {\"feature\": \"RAM\", \"value\": \"16GB DDR4\"},\n      {\"feature\": \"Storage\", \"value\": \"512GB SSD\"}\n    ]\n  }\n]"
+    },
+    {
+      "path": "docs/data-schema.md",
+      "content": "# Data Schema\n\n## runs.json\n- `id`: Unique identifier for the run.\n- `date`: Date of the run.\n- `description`: Description of the steps taken during the run.\n\n## hardware.json\n- `id`: Unique identifier for the hardware.\n- `name`: Name of the hardware.\n- `specs`: Array of specifications, each with a `feature` and `value`."
+    },
+    {
+      "path": "data/runs-seed.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"date\": \"2023-10-01\",\n    \"description\": \"Initial setup and basic files created.\"\n  }\n]"
+    },
+    {
+      "path": "data/hardware-seed.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"name\": \"ThinkPad e530\",\n    \"specs\": [\n      {\"feature\": \"Processor\", \"value\": \"Intel Core i7-8565U\"},\n      {\"feature\": \"RAM\", \"value\": \"16GB DDR4\"},\n      {\"feature\": \"Storage\", \"value\": \"512GB SSD\"}\n    ]\n  }\n]"
+    }
+  ],
+  "notes": "Created data files for runs and hardware with seed content."
+}
+```

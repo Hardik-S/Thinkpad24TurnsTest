@@ -1,0 +1,1 @@
+Created project brief, directory structure, and file manifest.

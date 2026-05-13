@@ -1,0 +1,15 @@
+```json
+{
+  "files": [
+    {
+      "path": "data/hardware.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"name\": \"ThinkPad e530\",\n    \"specs\": [\n      {\"feature\": \"Processor\", \"value\": \"Intel Core i7-8565U\"},\n      {\"feature\": \"RAM\", \"value\": \"16GB DDR4\"},\n      {\"feature\": \"Storage\", \"value\": \"512GB SSD\"}\n    ]\n  }\n]"
+    },
+    {
+      "path": "data/runs.json",
+      "content": "[\n  {\n    \"id\": 1,\n    \"date\": \"2023-10-01\",\n    \"description\": \"Initial setup and basic files created.\"\n  }\n]"
+    }
+  ],
+  "notes": "Updated hardware specifications for ThinkPad e530."
+}
+```

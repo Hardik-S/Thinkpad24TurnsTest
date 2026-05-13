@@ -1,0 +1,3 @@
+README.md
+docs/qwen-build-log.md
+docs/file-manifest.md
