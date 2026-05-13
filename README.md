@@ -36,6 +36,10 @@ tasks:
 - `docs/PLAN.md` - full 24-turn operating plan.
 - `docs/TURN_SCHEDULE.md` - exact prompt intent for every Qwen run.
 - `docs/FIRST_LOOP_RUNBOOK.md` - commands and evidence rules for runs 1-12.
+- `docs/NEXT_SIX_RUNBOOK.md` - direct-file controller plan for runs 13-18.
+- `docs/FINAL_LOOP_RUNBOOK.md` - Markdown-only controller plan for runs 19-24.
 - `prompts/turns-01-12.md` - first-loop prompts to send to Qwen.
+- `scripts/thinkpad_turns_19_24_controller.py` - final-loop controller that
+  writes only raw Markdown evidence files and preserves the no-repair boundary.
 - `state/` - run evidence copied back from the ThinkPad.
 
