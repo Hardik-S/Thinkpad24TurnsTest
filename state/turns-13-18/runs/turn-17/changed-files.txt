@@ -1,0 +1,1 @@
+scripts/validate-static-site.js

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "ThinkPad e530",
+    "specs": [
+      {"feature": "Processor", "value": "Intel Core i7-8565U"},
+      {"feature": "RAM", "value": "16GB DDR4"},
+      {"feature": "Storage", "value": "512GB SSD"}
+    ]
+  }
+]
