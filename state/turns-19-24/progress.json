@@ -1,0 +1,259 @@
+{
+  "started_at": "2026-05-13T14:10:23Z",
+  "model": "qwen2.5-coder:3b",
+  "turns": [
+    {
+      "turn": 1,
+      "title": "Project brief and manifest",
+      "status": "completed",
+      "elapsed_seconds": 112.62,
+      "changed_files": [
+        "README.md",
+        "docs/qwen-build-log.md",
+        "docs/file-manifest.md"
+      ],
+      "error": false
+    },
+    {
+      "turn": 2,
+      "title": "Data schema",
+      "status": "completed",
+      "elapsed_seconds": 250.29,
+      "changed_files": [
+        "data/runs.json",
+        "data/hardware.json",
+        "docs/data-schema.md",
+        "data/runs-seed.json",
+        "data/hardware-seed.json"
+      ],
+      "error": false
+    },
+    {
+      "turn": 3,
+      "title": "HTML skeleton",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true
+    },
+    {
+      "turn": 4,
+      "title": "Base styles",
+      "status": "completed",
+      "elapsed_seconds": 216.9,
+      "changed_files": [
+        "styles.css"
+      ],
+      "error": false
+    },
+    {
+      "turn": 5,
+      "title": "Render shell",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true
+    },
+    {
+      "turn": 6,
+      "title": "Recovery HTML skeleton",
+      "status": "completed",
+      "elapsed_seconds": 271.25,
+      "changed_files": [
+        "index.html",
+        "styles.css",
+        "app.js"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 7,
+      "title": "Compact app shell",
+      "status": "completed",
+      "elapsed_seconds": 182.52,
+      "changed_files": [
+        "app.js"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 8,
+      "title": "Validation data pass",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "narrow"
+    },
+    {
+      "turn": 9,
+      "title": "Hardware profile pass",
+      "status": "completed",
+      "elapsed_seconds": 252.09,
+      "changed_files": [
+        "data/hardware.json",
+        "data/runs.json"
+      ],
+      "error": false,
+      "controller": "narrow"
+    },
+    {
+      "turn": 10,
+      "title": "Build story copy pass",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "narrow"
+    },
+    {
+      "turn": 11,
+      "title": "First-loop evidence doc",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "ultra-single-file"
+    },
+    {
+      "turn": 12,
+      "title": "Checkpoint handoff",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "ultra-single-file"
+    },
+    {
+      "turn": 13,
+      "title": "Responsive polish notes",
+      "status": "completed",
+      "elapsed_seconds": 159.01,
+      "changed_files": [
+        "docs/turn-13-responsive-polish.md"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 14,
+      "title": "Accessibility pass notes",
+      "status": "completed",
+      "elapsed_seconds": 200.3,
+      "changed_files": [
+        "docs/turn-14-accessibility-pass.md"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 15,
+      "title": "Empty and error state notes",
+      "status": "completed",
+      "elapsed_seconds": 129.99,
+      "changed_files": [
+        "docs/turn-15-empty-error-states.md"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 16,
+      "title": "No-external cleanup notes",
+      "status": "completed",
+      "elapsed_seconds": 133.46,
+      "changed_files": [
+        "docs/turn-16-no-external-cleanup.md"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 17,
+      "title": "Static validator script",
+      "status": "completed",
+      "elapsed_seconds": 196.6,
+      "changed_files": [
+        "scripts/validate-static-site.js"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 18,
+      "title": "Validator repair notes",
+      "status": "completed",
+      "elapsed_seconds": 194.27,
+      "changed_files": [
+        "docs/turn-18-validator-repair-notes.md"
+      ],
+      "error": false,
+      "controller": "turns-13-18-direct-file"
+    },
+    {
+      "turn": 19,
+      "title": "UI copy tightening notes",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "turns-19-24-markdown-only"
+    },
+    {
+      "turn": 20,
+      "title": "Validation report draft",
+      "status": "completed",
+      "elapsed_seconds": 208.55,
+      "changed_files": [
+        "docs/validation-report.md"
+      ],
+      "error": false,
+      "controller": "turns-19-24-markdown-only"
+    },
+    {
+      "turn": 21,
+      "title": "Raw consistency pass",
+      "status": "failed",
+      "elapsed_seconds": 0.0,
+      "changed_files": [],
+      "error": true,
+      "controller": "turns-19-24-markdown-only"
+    },
+    {
+      "turn": 22,
+      "title": "Validator run summary",
+      "status": "completed",
+      "elapsed_seconds": 70.07,
+      "changed_files": [
+        "docs/turn-22-validator-run-summary.md"
+      ],
+      "error": false,
+      "controller": "turns-22-24-micro-markdown"
+    },
+    {
+      "turn": 23,
+      "title": "Final handoff to Codex",
+      "status": "completed",
+      "elapsed_seconds": 76.01,
+      "changed_files": [
+        "docs/handoff-to-codex.md"
+      ],
+      "error": false,
+      "controller": "turns-22-24-micro-markdown"
+    },
+    {
+      "turn": 24,
+      "title": "Qwen retrospective",
+      "status": "completed",
+      "elapsed_seconds": 65.51,
+      "changed_files": [
+        "docs/qwen-retrospective.md"
+      ],
+      "error": false,
+      "controller": "turns-22-24-micro-markdown"
+    }
+  ],
+  "updated_at": "2026-05-13T17:19:10Z"
+}

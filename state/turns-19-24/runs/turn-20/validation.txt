@@ -1,0 +1,22 @@
+PASS README.md
+PASS index.html
+PASS styles.css
+PASS app.js
+PASS data/runs.json
+PASS data/hardware.json
+PASS json data/runs.json
+PASS json data/hardware.json
+PASS node --check app.js
+FAIL node --check scripts/validate-static-site.js
+/home/hardik/thinkpad24turns-test/thinkpad-build-observatory/scripts/validate-static-site.js:17
+      console.error(`FAIL ${file} does not exist`);
+                     ^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at node:internal/main/check_syntax:84:41
+    at loadESM (node:internal/process/esm_loader:34:13)
+    at checkSyntax (node:internal/main/check_syntax:84:21)
+
+Node.js v18.19
