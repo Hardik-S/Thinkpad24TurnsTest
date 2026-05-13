@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThinkPad Build Observatory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Local model build evidence</p>
+    <h1>ThinkPad Build Observatory</h1>
+    <p class="lede">
+      A static portfolio artifact generated across 24 supervised turns on a
+      ThinkPad e530 running local qwen2.5-coder:3b, then repaired here by Codex
+      after the Qwen boundary closed.
+    </p>
+    <div class="summary-grid" id="summary"></div>
+  </header>
+
+  <main>
+    <section aria-labelledby="timeline-title">
+      <div class="section-heading">
+        <p class="eyebrow">24-turn record</p>
+        <h2 id="timeline-title">Run Timeline</h2>
+      </div>
+      <div id="timeline" class="timeline" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="validation-title">
+      <div class="section-heading">
+        <p class="eyebrow">What the evidence proves</p>
+        <h2 id="validation-title">Validation</h2>
+      </div>
+      <div id="validation" class="validation-grid"></div>
+    </section>
+
+    <section aria-labelledby="artifact-title">
+      <div class="section-heading">
+        <p class="eyebrow">Raw and repaired outputs</p>
+        <h2 id="artifact-title">Artifacts</h2>
+      </div>
+      <div id="artifacts" class="artifact-grid"></div>
+    </section>
+
+    <section aria-labelledby="hardware-title">
+      <div class="section-heading">
+        <p class="eyebrow">Worker route</p>
+        <h2 id="hardware-title">Hardware Profile</h2>
+      </div>
+      <div id="hardware" class="hardware-panel"></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Boundary:</strong> raw Qwen output is preserved in <code>state/</code>.
+    This <code>codex-fix/</code> version exists so the portfolio artifact is usable
+    without hiding what failed.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

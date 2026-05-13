@@ -1,0 +1,12 @@
+{
+  "machine": "ThinkPad e530",
+  "role": "CPU-only local worker used for supervised, five-minute Qwen turns.",
+  "model": "qwen2.5-coder:3b",
+  "route": "Direct Ollama HTTP API with Codex orchestration and later repair.",
+  "specs": [
+    {"label": "CPU", "value": "Intel Core i5-3210M @ 2.50GHz"},
+    {"label": "Memory", "value": "11 GiB RAM with 4 GiB swap observed during setup"},
+    {"label": "Storage", "value": "Large local disk available for evidence snapshots"},
+    {"label": "Boundary", "value": "No raw Qwen output was edited until the 24-turn phase ended"}
+  ]
+}
